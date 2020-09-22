@@ -25,7 +25,7 @@ function CardBook({ book }) {
         <h2>{book.volumeInfo.title}</h2>
       </div>
 
-      <small>{book.volumeInfo.description}</small>
+      <small className="books__card-text">{book.volumeInfo.description}</small>
     </div>
   );
 }

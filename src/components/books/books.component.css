@@ -34,3 +34,9 @@
 .books__card-wrapper {
   display: flex;
 }
+
+.books__card-text {
+  display: block;
+  overflow-y: auto;
+  height: 150px;
+}
